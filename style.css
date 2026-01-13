@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: #DDFFFF;
+}
+
+.container {
+  max-width: 480px;
+  margin: 0 auto;
+  padding: 16px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+select {
+  width: 100%;
+  font-size: 16px;
+  padding: 10px;
+}
+
+button {
+  margin-top: 16px;
+  padding: 12px;
+  width: 100%;
+  font-size: 18px;
+  background-color: #00FFFF; /* アクア */
+}
+
+.result {
+  margin-top: 24px;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.list {
+  margin-top: 24px;
+  text-align: left;
+  background: #fff;
+  padding: 12px;
+  border-radius: 6px;
+  max-height: 300px;
+  overflow-y: auto;
+  font-size: 16px;
+  background-color: #FFFFCC;
+}
+
+pre {
+  margin: 0;
+  white-space: pre-wrap;
+}

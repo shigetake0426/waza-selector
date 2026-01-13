@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <title>技ランダム選択</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>カテゴリを選択してください</h1>
+
+    <select id="category">
+      <option value="1">1～3級 立ち技</option>
+      <option value="2">1～2級 座り技</option>
+      <option value="3">昇段審査 立ち技</option>
+      <option value="4">昇段審査 座り技</option>
+      <option value="5">有段審査 立ち技</option>
+      <option value="6">有段審査 座り技</option>
+    </select>
+
+    <button id="selectBtn">選択</button>
+
+    <div class="result">
+      <div id="randomWaza">-----</div>
+    </div>
+
+    <div class="list">
+      <pre id="wazaList"></pre>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
